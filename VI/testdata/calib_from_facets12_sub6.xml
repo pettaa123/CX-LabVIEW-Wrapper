@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cx3d MajorVersion="1" MinorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cx3d.xsd">
+	<CalibCase3d id="cal0">
+		<name>C5-2040</name>
+		<sensorSN>123456</sensorSN>
+		<dateTime>2018-03-09T00:00:00</dateTime>
+		<creator>cx_3d</creator>
+		<description>Start values for C5-2040</description>
+		<target>0</target>
+		<sensorSize>2048 1088</sensorSize>
+		<fov>0 0 0 0 0 0</fov>
+		<roc>0 0 2048 1088</roc>
+		<intrinsic>
+			<model>1</model>
+			<rangeOffset>0</rangeOffset>
+			<rangeScale>0.015625</rangeScale>
+			<rrH>1</rrH>
+			<rrV>1</rrV>
+			<sensorRoi>92 0 0 0</sensorRoi>
+			<sensorR>0 0 0</sensorR>
+			<pixelSize>0.0055 0.0055</pixelSize>
+			<f>8</f>
+			<cp>1024 544</cp>
+			<L>
+				<rows>1</rows>
+				<cols>1</cols>
+				<dt>d</dt>
+				<data>0</data>
+			</L>
+			<P>
+				<rows>3</rows>
+				<cols>3</cols>
+				<dt>d</dt>
+				<data>-0.07608788275963782 -0.0008888978982332977 -3.59487711318059 -0.0003723796404189525 0.1790179253415891 73.12190812645044 2.276138129111609e-06 0.0005273784865081632 1</data>
+			</P>
+			<C>
+				<rows>1</rows>
+				<cols>0</cols>
+				<dt>d</dt>
+				<data/>
+			</C>
+			<N>
+				<rows>1</rows>
+				<cols>0</cols>
+				<dt>d</dt>
+				<data/>
+			</N>
+		</intrinsic>
+		<extrinsic>
+			<Sy>0.05276310151904181</Sy>
+			<Sxy>-0.01251214482143474</Sxy>
+			<Szy>-0.02700994427387227</Szy>
+			<T>1.4503 -12.7593 0.745458</T>
+			<R>0.021299 -4.29263e-05 -0.00140801</R>
+		</extrinsic>
+		<metric>
+			<offset>0 0 0</offset>
+			<scale>1 1 1</scale>
+			<invalidDataValue>0</invalidDataValue>
+		</metric>
+		<accuracyStat>
+			<rows>4</rows>
+			<cols>3</cols>
+			<dt>d</dt>
+			<data>-0.2157055139541626 0.5837946326854286 1.50262713432312 -0.6315027300516765 1.583626582128426 2.717827148437493 -0.1047453979651133 0.2444967914320491 0.6204485297203064 1.673122697697121 0.7519472118807083 2.729989727022281</data>
+		</accuracyStat>
+		<lensCorrStat>
+			<rows>1</rows>
+			<cols>3</cols>
+			<dt>d</dt>
+			<data>0 0 0</data>
+		</lensCorrStat>
+	</CalibCase3d>
+<CalibTarget id="aqs12_at_hohl">
+		<name>3D Printed AQS12</name>
+		<serialNumber/>
+		<description>Facet-12 calibration target, 3D printed</description>
+		<target>1</target>
+		<gp>
+			<rows>12</rows>
+			<cols>3</cols>
+			<dt>d</dt>
+			<data>0 0 0 75 57.69 0 10 85.27 65 0 77.58 65 -10 85.27 65 -75 57.69 0 75 136.18 0 10 108.6 65 0 116.29 65 -10 108.6 65 -75 136.18 0 0 193.87 0</data>
+		</gp>
+		<tp>
+			<rows>12</rows>
+			<cols>3</cols>
+			<dt>d</dt>
+			<data>0 0 0 75 57.69 0 10 85.27 65 0 77.58 65 -10 85.27 65 -75 57.69 0 75 136.18 0 10 108.6 65 0 116.29 65 -10 108.6 65 -75 136.18 0 0 193.87 0</data>
+		</tp>
+		<ip>
+			<rows>12</rows>
+			<cols>3</cols>
+			<dt>d</dt>
+			<data>887.4504604347864 254.8765089480505 8655.002911223228 119.8899995634502 1317.318319149568 8560.510045336941 758.2416810118307 1932.838805936069 31182.71656133869 884.934754329984 1757.996288608668 31206.18581323647 1013.144803286852 1933.903586614119 31237.52299778594 1665.222979607244 1316.749056129795 8766.516270535731 117.8896107337971 2864.485825658267 8571.648117172241 757.9173368261078 2295.568075542914 31190.44634431629 885.4551543545905 2470.253738997879 31221.61278563853 1013.041198134216 2295.303243214672 31245.27163213664 1665.411469851708 2871.260913448385 8778.000282727047 891.5857889220437 3929.224574518718 8682.639181813664</data>
+		</ip>
+		<stat>
+			<rows>1</rows>
+			<cols>3</cols>
+			<dt>d</dt>
+			<data>103.8450280548791 135.8189325759744 289.6252987268126</data>
+		</stat>
+		<fp>10 0.3 10</fp>
+		<sp>13 0.01 0.7 0 0</sp>
+	</CalibTarget>
+</cx3d>

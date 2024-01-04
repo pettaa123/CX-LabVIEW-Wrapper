@@ -1,0 +1,19 @@
+{
+    "CameraMode":3,
+	"ProfilesPerFrame":3800,
+    "ExposureTimeAbs":9000,
+	"FramePeriod":1,
+    "ProfileTriggerMode":3,
+	"TriggerDivider":5,
+	"OutputImageType":7,
+	"FIR":false,
+	"AcquisitionMode":1,
+	"AcquisitionFrameCount" : 1,
+	"AOIHeight" : 1088,
+	"AOIThreshold" : 120,
+	"NumSubPixel":6,
+    "EnableDC0":true,
+    "EnableDC1":false,
+    "EnableDC2":true,
+	"Timeout":60000
+}

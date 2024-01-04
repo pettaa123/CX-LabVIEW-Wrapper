@@ -1,0 +1,10 @@
+{
+    "CameraMode":0,
+    "ExposureTimeAbs":9000,
+	"FramePeriod":40000,
+    "ProfileTriggerMode":0,
+    "OutputImageType":7,
+	"AcquisitionMode":0,
+    "Timeout":10000,
+    "EnableDC0":true
+}
