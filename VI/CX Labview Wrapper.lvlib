@@ -7,6 +7,7 @@
 	<Item Name="Controls" Type="Folder">
 		<Item Name="2D Camsettings.ctl" Type="VI" URL="../Controls/2D Camsettings.ctl"/>
 		<Item Name="3D Camsettings.ctl" Type="VI" URL="../Controls/3D Camsettings.ctl"/>
+		<Item Name="Close Button.ctl" Type="VI" URL="../Controls/Close Button.ctl"/>
 		<Item Name="Save Pointcloud.ctl" Type="VI" URL="../Controls/Save Pointcloud.ctl"/>
 	</Item>
 	<Item Name="Settings" Type="Folder">
