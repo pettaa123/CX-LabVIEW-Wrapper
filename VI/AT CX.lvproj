@@ -12,11 +12,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="testdata" Type="Folder" URL="../testdata">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="testdata" Type="Folder">
+			<Item Name="calib_from_facets12_sub6.xml" Type="Document" URL="../testdata/calib_from_facets12_sub6.xml"/>
+			<Item Name="cx_6_C5-2040-GigE_1.ply" Type="Document" URL="../testdata/cx_6_C5-2040-GigE_1.ply"/>
+			<Item Name="cx_6_C5-2040-GigE_1.tif" Type="Document" URL="../testdata/cx_6_C5-2040-GigE_1.tif"/>
+			<Item Name="cx_6_C5-2040-GigE_1_write.tif" Type="Document" URL="../testdata/cx_6_C5-2040-GigE_1_write.tif"/>
 		</Item>
 		<Item Name="CX Labview Wrapper.lvlib" Type="Library" URL="../CX Labview Wrapper.lvlib"/>
-		<Item Name="Imaqdx Classes.lvlib" Type="Library" URL="../Modules/imaqdx-classes/Imaqdx Classes.lvlib"/>
+		<Item Name="Imaqdx Classes.lvlib" Type="Library" URL="../modules/imaqdx-classes/Imaqdx Classes.lvlib"/>
 		<Item Name="Message Queue Helper.lvlib" Type="Library" URL="../modules/cmh-library/Message Queue Helper.lvlib"/>
 		<Item Name="Message Queue.lvlib" Type="Library" URL="../Modules/cmh-library/Message Queue.lvlib"/>
 		<Item Name="call library test.vi" Type="VI" URL="../call library test.vi"/>
@@ -98,7 +101,6 @@
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="cx-labview-wrapper.dll" Type="Document" URL="../../cx-labview-wrapper/build/x64/Release/cx-labview-wrapper.dll"/>
-			<Item Name="Enqueue Message Poly.vi" Type="VI" URL="../Modules/cmh-library/Message Queue/Helper/Message Queue/Enqueue Message Poly.vi"/>
 			<Item Name="Event Messenger-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-bool.lvlib"/>
 			<Item Name="Flush Control Value.vi" Type="VI" URL="/C/Program Files/NI/LVAddons/niimaqdx/1/examples/Vision Acquisition/NI-IMAQdx/Camera Attributes/SubVIs/Flush Control Value.vi"/>
 			<Item Name="Messenger-t&apos;Message Queue.lvlib-Message Cluster.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Messenger-t&apos;Message Queue.lvlib-Message Cluster.ctl&apos;.lvlib"/>
@@ -112,7 +114,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
-			<Item Name="Populate GigE Settings (SubVI).vi" Type="VI" URL="../modules/imaqdx-classes/imaqdx/A700/SubVIs/Populate GigE Settings (SubVI).vi"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="Update Attribute Tree.vi" Type="VI" URL="/C/Program Files/NI/LVAddons/niimaqdx/1/examples/Vision Acquisition/NI-IMAQdx/Camera Attributes/SubVIs/Update Attribute Tree.vi"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>

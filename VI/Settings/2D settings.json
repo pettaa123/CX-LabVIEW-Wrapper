@@ -1,6 +1,7 @@
 {
     "CameraMode":0,
-    "ExposureTimeAbs":9000,
+    "ExposureTimeAbs":5000,
+	"AOIThreshold":105,
 	"FramePeriod":40000,
     "ProfileTriggerMode":0,
     "OutputImageType":7,
