@@ -1,6 +1,0 @@
-[submodule "VI/modules/imaqdx-classes"]
-	path = VI/modules/imaqdx-classes
-	url = https://github.com/pettaa123/Imaqdx-Classes
-[submodule "VI/modules/cmh-library"]
-	path = VI/modules/cmh-library
-	url = https://github.com/pettaa123/CMH-Library
